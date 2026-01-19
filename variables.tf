@@ -42,3 +42,14 @@ variable "port" {
   description = "port_vpc"
   type = list(number)
 }
+
+variable "access_key" {
+  description = "access_key"
+
+  
+}
+
+variable "secret_key" {
+  description = "secret_key"
+  
+}
